@@ -1,39 +1,82 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# My Resume - Yassin Rollander Ben Youssef
 
-Welcome USER_NAME,
+A personal website resume providing nessecary information for potential employers and recruiters.
+ -
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+-------------------
 
-## Gitpod Reminders
+## **UX**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The website is for mainly recruiters and potential employers interesting in:
 
-`python3 -m http.server`
+- My professional background
+- My skills as a webdeveloper
+- My CV
+- My GitHub repositry
+- Contact information
 
-A blue button should appear to click: *Make Public*,
+And also for me a good way to:
 
-Another blue button should appear to click: *Open Browser*.
+- Display my developing skills
+- Create a presence on the internet
+- Strengthen my own brand
+- Reach out to employers
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+---------------
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## **Features**
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+It is a onepage website that works on multiple devices. The website include:
 
-## Updates Since The Instructional Video
+### **Existing Features**
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+#### Navigation bar
+- A navigation bar will stay at the top of the page while scrolling
+- Menu buttons that will take you to respective parts of the website
+- One link button that will open up my GitHub repositry
+- One download button that will open up my CV in PDF format
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Header
+- A header background space picture
+- Introduction text
+- A front- and back-end logo
+- A Hire Me button that will link to the "Contact" part of the website
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### About
+- A profile picture
+- A personal information text
+- Information text (*What I do, how I do it and why hire me*)
+- Details (*Name, age, location, phonenumber*)
+- A Hire Me button that will link to the "Contact" part of the website
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Experience 
+- CV lookalike education history
+- Cv lookalike careers history
+- A Hire Me button that will link to the "Contact" part of the website
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Skills
+- Presentationtext of my front- and back-end skills
+- Progressbars showcasing my programming skills
+- A Hire Me button that will link to the "Contact" part of the website
 
---------
+#### Contact
 
-Happy coding!
+- Contact form that requires user to put name, email and write a message. (*Company information is optional*)
+
+#### Footer
+
+- A buttom that will take you to the top of the page
+- Links to my socialmedia (*Facebook, Linkedin, Instagram*)
+
+
+
+
+### **Features left to implement**
+- A portfolio page
+
+
+-----------------
+
+
+## **Technologies Used**

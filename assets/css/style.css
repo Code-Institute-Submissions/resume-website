@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+h2 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #00154f;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-color: #00154f;
+    opacity: 0.3;
+    width: 50%;
+    text-align: center;
+}
+
+/*-----------------------------------------------Header/NAVBAR*/
+
+
+.hero-image {
+    background: url("../images/header.jpg");
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.hero-text {
+    font-family: "Montserrat";
+    color: white;
+    margin-top: 30%;
+}
+
+.hero-p {
+    font-family: "Montserrat";
+    color: white;
+}
+
+.button-header {
+    margin-top: 30px;
+    background-color: #f4af1b;
+    border: none;
+}
+
+.navbar-bg-color {
+    background-color: #00154f;
+
+}
+
+.navbar-brand {
+    font-family: "Nunito";
+    color: #f2bc94;
+    font-size: 40px;
+}
+
+ul li a {
+    font-family: "Nunito";
+    font-size: 20px;
+    color: #ffff;
+}
+
+#nav-toggle-button {
+    background-color: #f4af1b;
+    color: #00154f;
+    border-color: black;
+}
+
+.button-nav {
+    background-color: #f4af1b;
+    border: none;
+    margin: 5px;
+    
+}
+
+
+/*-----------------------------------------------About*/
+
+
+#about-1 {
+    background-color: whitesmoke;
+    padding: 40px 0;
+}
+
+#about-2 {
+    background-color: #f2bc94;
+    padding: 40px 0;
+}
+
+.about-icon {
+    font-size: 30px;
+    color: #f4af1b;
+}
+.about-header {
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #00154f;
+    }
+
+.about-p {
+    font-family: "Montserrat";
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: auto;
+    border: 3px solid #00154f;
+    position: relative;
+}
+
+.intro-title {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #00154f;
+    margin-top: 20px;
+}
+
+.intro-text {
+    display: block;
+    text-align: center;
+    font-family: "Montserrat";
+
+}
+
+.details-title {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 30px;
+    color: #00154f;
+    margin-bottom: 20px;
+}
+
+.key {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.value {
+    font-family: "Montserrat";
+}
+
+/*-----------------------------------------------Media queries*/
+
+@media only screen and (max-width: 600px) {
+  .details-title {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid #00154f;
+  }
+}
+
+/*-----------------------------------------------Experience*/
+
+#experience-section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 50px;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    
+   
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #00154f;
+}
+
+.profile-picture {
+    width: 240px;
+    height: auto;
+    border-radius: 4px;
+    border: 3px solid #00154f;
+    position: relative;
+}
+
+.profile p {
+    text-align: center;
+    font-family: "Montserrat";
+    
+}
+
+.why-me {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #00154f;
+}   
+
+@media (max-width: 768px) {
+    .why-me {
+        border-left: 0px;
+        border-right: 0px;
+    }
+}
+
+.why-me h4 {
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.three-reasons-icon {
+    font-size: 30px;
+    color: #f4af1b;
+    
+}
+
+.details h3 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    
+}
+
+.key {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.value {
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-size: 20px;
+   
+}
+/*-----------------------------------------------Experience*/
+
+#experience-section {
+    background-color: whitesmoke;
+}
+
+#experience-section h2 {
+    text-align: center;
+    
+    
+}
+
+.quote {
+    text-align: center;
+    font-family: "Montserrat";
+    
+}
+
+#experience-section h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #00154f;
+    font-family: "Montserrat";
+    
+}
+
+.experience h4 {
+    font-family: "Montserrat";
+    font-weight: 300;
+    
+}
+
+.experience p {
+    font-family: "Montserrat";
+    
+}
+
+.experience-details .experience p > strong {
+    display: block;
+   
+   
+    
+}
+
+.experience-details .experience .location {
+    display: block;
+    
+}
+
+.location-icon {
+    color: #00154f;
+    font-size: 15px;
+}
