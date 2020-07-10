@@ -147,6 +147,16 @@ ul li a {
     font-family: "Montserrat";
 }
 
+.number {
+    font-family: "Montserrat";
+}
+
+.number::after {
+    content: 'Available between 09:00 to 17:00 GMT + 1 (GMT + 2 under summer)';
+    font-size: 10px;
+    display: block;
+}
+
 /*-----------------------------------------------Media queries*/
 
 @media only screen and (max-width: 600px) {
@@ -157,135 +167,44 @@ ul li a {
   }
 }
 
-/*-----------------------------------------------Experience*/
 
-#experience-section {
-    padding: 40px 0;
-}
-
-h2 {
-    font-family: "Montserrat";
-    font-size: 50px;
-    position: relative;
-    text-transform: uppercase;
-    text-align: center;
-    
-   
-    text-decoration: underline;
-    text-underline-position: under;
-    color: #00154f;
-}
-
-.profile-picture {
-    width: 240px;
-    height: auto;
-    border-radius: 4px;
-    border: 3px solid #00154f;
-    position: relative;
-}
-
-.profile p {
-    text-align: center;
-    font-family: "Montserrat";
-    
-}
-
-.why-me {
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-color: #00154f;
-}   
-
-@media (max-width: 768px) {
-    .why-me {
-        border-left: 0px;
-        border-right: 0px;
-    }
-}
-
-.why-me h4 {
-    font-family: "Montserrat";
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    
-}
-
-.three-reasons-icon {
-    font-size: 30px;
-    color: #f4af1b;
-    
-}
-
-.details h3 {
-    font-family: "Montserrat";
-    font-weight: 500;
-    
-}
-
-.key {
-    font-family: "Montserrat";
-    font-weight: 500;
-    font-size: 20px;
-    
-}
-
-.value {
-    font-family: "Montserrat";
-    font-weight: 200;
-    font-size: 20px;
-   
-}
 /*-----------------------------------------------Experience*/
 
 #experience-section {
     background-color: whitesmoke;
-}
-
-#experience-section h2 {
-    text-align: center;
-    
-    
+    padding: 40px 0;
 }
 
 .quote {
+    font-family: "Montserrat";
     text-align: center;
-    font-family: "Montserrat";
-    
 }
 
-#experience-section h3 {
-    font-size: 28px;
+.experience {
+    font-family: "Montserrat";
+    padding: 20px 0;
+
+}
+
+.experience-title {
+    font-family: "Montserrat";
     font-weight: 500;
+    font-size: 30px;
     color: #00154f;
-    font-family: "Montserrat";
-    
+    margin-bottom: 20px;
 }
 
-.experience h4 {
-    font-family: "Montserrat";
-    font-weight: 300;
-    
-}
+h6 {
+    font-size: 20px;
+    font-weight: 600;
 
-.experience p {
-    font-family: "Montserrat";
-    
-}
-
-.experience-details .experience p > strong {
-    display: block;
-   
-   
-    
-}
-
-.experience-details .experience .location {
-    display: block;
-    
 }
 
 .location-icon {
+    color: #f4af1b;
+}
+
+.seperator {
     color: #00154f;
-    font-size: 15px;
+    margin: 0 5px;
 }
