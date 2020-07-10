@@ -32,7 +32,7 @@ hr {
 .hero-text {
     font-family: "Montserrat";
     color: white;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .hero-p {
@@ -167,6 +167,11 @@ ul li a {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .hidden-small-device {
+      display: none;
+  }
+}
 
 /*-----------------------------------------------Experience*/
 
@@ -207,4 +212,64 @@ h6 {
 .seperator {
     color: #00154f;
     margin: 0 5px;
+}
+
+/*-----------------------------------------------Experience*/
+
+#skills {
+    background-color: #f2bc94;
+    padding: 40px 0;
+}
+
+.skills-1 {
+    padding: 40px 0;
+}
+
+.skills-icon {
+    color: #00154f;
+    font-size: 40px;
+}
+
+.progress-page {
+    padding: 10px 0;
+}
+
+.progress-bar {
+    background-color: #f4af1b;
+}
+
+.skills-icon:hover {
+    color: #f4af1b;
+}
+
+/*-----------------------------------------------Experience*/
+
+#contact {
+    padding: 40px 0;
+    background-color: whitesmoke;
+}
+
+/*-----------------------------------------------Footer*/
+
+footer {
+    background-color: #00154f;
+    color: #fafafa;
+    min-height: 180px;
+    margin: 0;
+}
+
+.arrow {
+    color: #f2bc94;
+    font-size: 50px;
+}
+
+.social-links {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fl {
+    padding: 10px;
+    font-size: 40px;
+    color: #f4af1b;
 }
