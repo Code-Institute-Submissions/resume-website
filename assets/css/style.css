@@ -152,7 +152,7 @@ ul li a {
 }
 
 .number::after {
-    content: 'Available between 09:00 to 17:00 GMT + 1 (GMT + 2 under summer)';
+    content: 'Available between 09:00 to 17:00 GMT + 1 (GMT + 2 in summer)';
     font-size: 10px;
     display: block;
 }
@@ -242,11 +242,15 @@ h6 {
     color: #f4af1b;
 }
 
-/*-----------------------------------------------Experience*/
+/*-----------------------------------------------Contact*/
 
 #contact {
     padding: 40px 0;
     background-color: whitesmoke;
+}
+
+.contact-header {
+    padding-bottom: 20px;
 }
 
 /*-----------------------------------------------Footer*/
@@ -259,8 +263,23 @@ footer {
 }
 
 .arrow {
-    color: #f2bc94;
+    color: #f4af1b; 
+    background-color:#00154f;
+    border-right: 1px solid #f4af1b;
+    border-bottom: 1px solid #f4af1b;;
+    border-left: 1px solid #f4af1b;
+    border-top: none; 
     font-size: 50px;
+   
+}
+
+.arrow:hover {
+    color: #00154f;
+    background-color:#f4af1b;
+    border-right: 1px solid #f4af1b;
+    border-bottom: 1px solid #f4af1b;;
+    border-left: 1px solid #f4af1b;
+    border-top: none; 
 }
 
 .social-links {
