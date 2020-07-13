@@ -27,21 +27,29 @@ hr {
     background: url("../images/header.jpg");
     height: 100vh;
     margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
 
 .hero-text {
     font-family: "Montserrat";
     color: white;
-    margin-top: 20%;
+    margin-top: 15%;
+    font-size: 400%;
 }
+
 
 .hero-p {
     font-family: "Montserrat";
     color: white;
+    font-size: 100%;
+    
+    
 }
 
 .button-header {
-    margin-top: 30px;
     background-color: #f4af1b;
     border: none;
 }
@@ -291,4 +299,10 @@ footer {
     padding: 10px;
     font-size: 40px;
     color: #f4af1b;
+}
+
+.button-contact{
+    background-color: #f4af1b;
+    border: none;
+    margin-top: 15px;
 }
